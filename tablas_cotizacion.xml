@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<cotizacion>
+
+    <anyo>
+
+        <fecha>2021</fecha>
+
+        <grupo_profesional numero="1">
+
+            <categorias>
+                <categoria nivel="" letra="">Titulado Superior</categoria><!--Quitar los atributos vacios-->
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>25344.61</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual>20275.83</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="">
+                    <salarioAnual>17741.35</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="2">
+
+            <categorias>
+                <categoria nivel="" letra="">Titulado Medio</categoria>
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>22663.38</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual>18131.44</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="">
+                    <salarioAnual>15864.27</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="3">
+
+            <categorias>
+
+                <categoria nivel="1" letra="A">Jefe Administracion Superior, Jefe Delineacion</categoria>
+                <categoria nivel="1" letra="B">Delineante proyectista</categoria>
+                <categoria nivel="2" letra="A">Encargado laboratorio. Jefe de Primera Administrativo , Jefe
+                equipo informatica, Analista de informatica, programador o
+                tecnico de sistemas y comunicaciones</categoria>
+                <categoria nivel="3" letra="A">Delineante de primera</categoria>
+                <categoria nivel="3" letra="B">Delineante de segunda</categoria>
+
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="A">
+                    <salarioAnual>22664.11</salarioAnual><!--Quitar los puntos de los números. Formato: 22664.11-->
+                </grupo>
+
+                <grupo nivel="1" letra="B">
+                    <salarioAnual>22433.86</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="A">
+                    <salarioAnual>19885.40</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="A">
+                    <salarioAnual>19366.96</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="B">
+                    <salarioAnual>18397.96</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="4">
+
+            <categorias>
+
+                <categoria nivel="1" letra="A">Jefe Administrativo de Segunda, Cajero con firma,
+                programador maquinas auxiliares, administrador de test,
+                coordinador tratamientos cuestionarios, jefe explotacion,
+                interpretes jurados, secretarias/os de Direccion</categoria>
+                <categoria nivel="2" letra="A">Tecnico analista, analista de primera</categoria>
+                <categoria nivel="2" letra="B">Analista de segunda</categoria>
+                <categoria nivel="2" letra="C">Inspector entrevistador, encargado, operador tabuladores</categoria>
+
+            </categorias>
+
+
+            <grupos>
+
+                <grupo nivel="1" letra="A">
+                    <salarioAnual>18033.67</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="A">
+                    <salarioAnual>17736.28</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="B">
+                    <salarioAnual>17070.36</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="C">
+                    <salarioAnual>16806.16</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="5">
+
+            <categorias>
+
+                <categoria nivel="1" letra="">Oficial de primera, taquigrafo, cajero sin firma, coordinador de
+                estudios, responsable equipo encuestas, operador
+                ordenadores 1a, jefe de maquinas basicas, clasificador,
+                responsable central teleoperadores</categoria>
+                <categoria nivel="2" letra="A">Oficial de primera en laboratorio</categoria>
+                <categoria nivel="2" letra="B">Oficial segunda laboratorio</categoria>
+                <categoria nivel="3" letra="">Capataz</categoria>
+                <categoria nivel="4" letra="">Oficial de segunda , perforista verificador, ; mecanicos/as;
+                carpinteros/as; electricistas; lector/a de contadores</categoria>
+
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>16.571.72</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="A">
+                    <salarioAnual>16.371.43</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="B">
+                    <salarioAnual>15.786.05</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="">
+                    <salarioAnual>15.693.91</salarioAnual>
+                </grupo>
+
+                <grupo nivel="4" letra="">
+                    <salarioAnual>15.596.47</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="6">
+
+            <categorias>
+
+                <categoria nivel="1" letra="">Operador de maquinas basicas, dibujante,
+                    entrevistador/encuestador; Oficial de oficios de primera,
+                    conductor, jardinero</categoria>
+                <categoria nivel="2" letra="">Calcador, Conserje Mayor, Conserje ordenanza- Vigilante de
+                    noche, oficial oficios de segunda</categoria>
+
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>14.621.72</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual>13.939.63</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="7">
+
+            <categorias>
+
+                <categoria nivel="1" letra="">Auxiliar Administrativo mas de 3 anyos
+                    Teleoperadores mas de 3 anyos</categoria>
+                <categoria nivel="2" letra="">Auxiliar administrativo de entrada, perforista de segunda;
+                    auxiliar de laboratorio; Ayudante operador, cobrador-pagador;
+                    auxiliar de caja, operador reproduccion multicop, Peon, mozo,
+                    personal de limpieza, personal de oficios basicos, conserje
+                    ordenanza portero dia; costurera oficial, botones, bedeles,
+                    teleoperadores</categoria>
+                
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>13.500.00</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual>13.300.00</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <complementosSalariales>
+
+            <plusTransporte>2.43</plusTransporte>
+
+            <AyudaEspecial>117.25</AyudaEspecial>
+
+            <plusTeletrabajo>2.43</plusTeletrabajo>
+
+            <DietaMedia>18.82</DietaMedia>
+
+            <DietaCompleta>55.37</DietaCompleta>
+
+        </complementosSalariales>
+
+    </anyo>
+
+    <anyo>
+
+        <fecha>2022</fecha>
+
+        <grupo_profesional numero="1">
+
+            <categorias>
+                <categoria nivel="" letra="">Titulado Superior</categoria>
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>25.851.50</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual>20.681.35</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="">
+                    <salarioAnual>18.096.18</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="2">
+
+            <categorias>
+                <categoria nivel="" letra="">Titulado Medio</categoria>
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>23.116.65</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual>18.494.07</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="">
+                    <salarioAnual>16.181.56</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="3">
+
+            <categorias>
+
+                <categoria nivel="1" letra="A">Jefe Administracion Superior, Jefe Delineacion</categoria>
+                <categoria nivel="1" letra="B">Delineante proyectista</categoria>
+                <categoria nivel="2" letra="A">Encargado laboratorio, Jefe de Primera Administrativo , Jefe
+                equipo informatica, Analista de informatica, programador o
+                tecnico de sistemas y comunicaciones</categoria>
+                <categoria nivel="3" letra="A">Delineante de primera</categoria>
+                <categoria nivel="3" letra="B">Delineante de segunda</categoria>
+
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="A">
+                    <salarioAnual>23.117.39</salarioAnual>
+                </grupo>
+
+                <grupo nivel="1" letra="B">
+                    <salarioAnual>22.882.54</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="A">
+                    <salarioAnual>20.283.11</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="A">
+                    <salarioAnual>19.754.30</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="B">
+                    <salarioAnual>18.765.92</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="4">
+
+            <categorias>
+
+                <categoria nivel="1" letra="A">Jefe Administrativo de Segunda, Cajero con firma,
+                programador maquinas auxiliares, administrador de test,
+                coordinador tratamientos cuestionarios, jefe explotacion,
+                interpretes jurados, secretarias/os de Direccion</categoria>
+                <categoria nivel="2" letra="A">Tecnico analista, analista de primera</categoria>
+                <categoria nivel="2" letra="B">Analista de segunda</categoria>
+                <categoria nivel="2" letra="C">Inspector entrevistador, encargado, operador tabuladores</categoria>
+
+            </categorias>
+
+
+            <grupos>
+
+                <grupo nivel="1" letra="A">
+                    <salarioAnual>18.394.34</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="A">
+                    <salarioAnual>18.091.01</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="B">
+                    <salarioAnual>17.411.77</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="C">
+                    <salarioAnual>17.142.28</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="5">
+
+            <categorias>
+
+                <categoria nivel="1" letra="">Oficial de primera, taquigrafo, cajero sin firma, coordinador de
+                estudios, responsable equipo encuestas, operador
+                ordenadores 1a, jefe de maquinas basicas, clasificador,
+                responsable central teleoperadores</categoria>
+                <categoria nivel="2" letra="A">Oficial de primera en laboratorio</categoria>
+                <categoria nivel="2" letra="B">Oficial segunda laboratorio</categoria>
+                <categoria nivel="3" letra="">Capataz</categoria>
+                <categoria nivel="4" letra="">Oficial de segunda , perforista verificador, ; mecanicos/as;
+                carpinteros/as; electricistas; lector/a de contadores</categoria>
+
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>16.903.15</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="A">
+                    <salarioAnual>16.698.86</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="B">
+                    <salarioAnual>16.101.77</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="">
+                    <salarioAnual>16.007.79</salarioAnual>
+                </grupo>
+
+                <grupo nivel="4" letra="">
+                    <salarioAnual>15.908.40</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="6">
+
+            <categorias>
+
+                <categoria nivel="1" letra="">Operador de maquinas basicas, dibujante,
+                    entrevistador/encuestador; Oficial de oficios de primera,
+                    conductor, jardinero</categoria>
+                <categoria nivel="2" letra="">Calcador, Conserje Mayor, Conserje ordenanza- Vigilante de
+                    noche, oficial oficios de segunda</categoria>
+
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>14.914.15</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual>14.218.42</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="7">
+
+            <categorias>
+
+                <categoria nivel="1" letra="">Auxiliar Administrativo mas de 3 anyos
+                    Teleoperadores mas de 3 anyos</categoria>
+                <categoria nivel="2" letra="">Auxiliar administrativo de entrada, perforista de segunda;
+                    auxiliar de laboratorio; Ayudante operador, cobrador-pagador;
+                    auxiliar de caja, operador reproduccion multicop, Peon, mozo,
+                    personal de limpieza, personal de oficios basicos, conserje
+                    ordenanza portero dia; costurera oficial, botones, bedeles,
+                    teleoperadores</categoria>
+                
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>13.770.00</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual>13.566.00</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <complementosSalariales>
+
+            <plusTransporte>2.49</plusTransporte>
+
+            <AyudaEspecial>119.60</AyudaEspecial>
+
+            <plusTeletrabajo>2.49</plusTeletrabajo>
+
+            <DietaMedia>19.20</DietaMedia>
+
+            <DietaCompleta>56.48</DietaCompleta>
+
+        </complementosSalariales>
+
+    </anyo>
+
+    <anyo>
+
+        <fecha>2023</fecha>
+
+        <grupo_profesional numero="1">
+
+            <categorias>
+                <categoria nivel="" letra="">Titulado Superior</categoria>
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>26.368.53</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual>21.094.97</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="">
+                    <salarioAnual>18.458.10</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="2">
+
+            <categorias>
+                <categoria nivel="" letra="">Titulado Medio</categoria>
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual>23.579.00</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual>18.863.95</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="">
+                    <salarioAnual>16.505.19</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="3">
+
+            <categorias>
+
+                <categoria nivel="1" letra="A">Jefe Administracion Superior, Jefe Delineacion</categoria>
+                <categoria nivel="1" letra="B">Delineante proyectista</categoria>
+                <categoria nivel="2" letra="A">Encargado laboratorio, Jefe de Primera Administrativo , Jefe
+                equipo informatica, Analista de informatica, programador o
+                tecnico de sistemas y comunicaciones</categoria>
+                <categoria nivel="3" letra="A">Delineante de primera</categoria>
+                <categoria nivel="3" letra="B">Delineante de segunda</categoria>
+
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="A">
+                    <salarioAnual>23.579.74</salarioAnual>
+                </grupo>
+
+                <grupo nivel="1" letra="B">
+                    <salarioAnual>23.340.19</salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="A">
+                    <salarioAnual>20.688.77</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="A">
+                    <salarioAnual>20.149.39</salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="B">
+                    <salarioAnual>19.141.24</salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="4">
+
+            <categorias>
+
+                <categoria nivel="1" letra="A">Jefe Administrativo de Segunda, Cajero con firma,
+                programador maquinas auxiliares, administrador de test,
+                coordinador tratamientos cuestionarios, jefe explotacion,
+                interpretes jurados, secretarias/os de Direccion</categoria>
+                <categoria nivel="2" letra="A">Tecnico analista, analista de primera</categoria>
+                <categoria nivel="2" letra="B">Analista de segunda</categoria>
+                <categoria nivel="2" letra="C">Inspector entrevistador, encargado, operador tabuladores</categoria>
+
+            </categorias>
+
+
+            <grupos>
+
+                <grupo nivel="1" letra="A">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="A">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="B">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="C">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="5">
+
+            <categorias>
+
+                <categoria nivel="1" letra="">Oficial de primera, taquigrafo, cajero sin firma, coordinador de
+                estudios, responsable equipo encuestas, operador
+                ordenadores 1a, jefe de maquinas basicas, clasificador,
+                responsable central teleoperadores</categoria>
+                <categoria nivel="2" letra="A">Oficial de primera en laboratorio</categoria>
+                <categoria nivel="2" letra="B">Oficial segunda laboratorio</categoria>
+                <categoria nivel="3" letra="">Capataz</categoria>
+                <categoria nivel="4" letra="">Oficial de segunda , perforista verificador, ; mecanicos/as;
+                carpinteros/as; electricistas; lector/a de contadores</categoria>
+
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="A">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="B">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+                <grupo nivel="3" letra="">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+                <grupo nivel="4" letra="">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="6">
+
+            <categorias>
+
+                <categoria nivel="1" letra="">Operador de maquinas basicas, dibujante,
+                    entrevistador/encuestador; Oficial de oficios de primera,
+                    conductor, jardinero</categoria>
+                <categoria nivel="2" letra="">Calcador, Conserje Mayor, Conserje ordenanza- Vigilante de
+                    noche, oficial oficios de segunda</categoria>
+
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <grupo_profesional numero="7">
+
+            <categorias>
+
+                <categoria nivel="1" letra="">Auxiliar Administrativo mas de 3 anyos
+                    Teleoperadores mas de 3 anyos</categoria>
+                <categoria nivel="2" letra="">Auxiliar administrativo de entrada, perforista de segunda;
+                    auxiliar de laboratorio; Ayudante operador, cobrador-pagador;
+                    auxiliar de caja, operador reproduccion multicop, Peon, mozo,
+                    personal de limpieza, personal de oficios basicos, conserje
+                    ordenanza portero dia; costurera oficial, botones, bedeles,
+                    teleoperadores</categoria>
+                
+            </categorias>
+
+            <grupos>
+
+                <grupo nivel="1" letra="">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+                <grupo nivel="2" letra="">
+                    <salarioAnual></salarioAnual>
+                </grupo>
+
+            </grupos>
+
+        </grupo_profesional>
+
+        <complementosSalariales>
+
+            <plusTransporte></plusTransporte>
+
+            <AyudaEspecial></AyudaEspecial>
+
+            <plusTeletrabajo></plusTeletrabajo>
+
+            <DietaMedia></DietaMedia>
+
+            <DietaCompleta></DietaCompleta>
+
+        </complementosSalariales>
+
+    </anyo>
+
+</cotizacion>
