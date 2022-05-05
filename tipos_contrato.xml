@@ -4,27 +4,57 @@
 
     <formacionPracticas>
 
+        <desempleo>
+            <trabajador>1.55</trabajador>
+            <empresa>5.50</empresa>
+        </desempleo>
+
     </formacionPracticas>
 
     <indefinido>
+
+        <desempleo>
+            <trabajador>1.55</trabajador>
+            <empresa>5.50</empresa>
+        </desempleo>
 
     </indefinido>
 
     <fijoDiscontinuo>
 
+        <desempleo>
+            <trabajador>1.55</trabajador>
+            <empresa>5.50</empresa>
+        </desempleo>
+        
     </fijoDiscontinuo>
 
     <temporal>
 
         <eventual>
 
+            <desempleo>
+                <trabajador>1.60</trabajador>
+                <empresa>6.70</empresa>
+            </desempleo>
+
         </eventual>
 
         <relevo>
 
+            <desempleo>
+                <trabajador>1.55</trabajador>
+                <empresa>5.50</empresa>
+            </desempleo>
+
         </relevo>
 
         <sustitucion>
+
+            <desempleo>
+                <trabajador>1.55</trabajador>
+                <empresa>5.50</empresa>
+            </desempleo>
 
         </sustitucion>
 
