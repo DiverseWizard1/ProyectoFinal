@@ -28,11 +28,25 @@ create table Nomina(
     LiquidoTot decimal (8, 2) not null,
     TotAportEmp decimal (8, 2) not null,
     FechaInicio date not null,
-    FechaFinal date not null,
-    HorasExtra int(3) NOT NULL,
+    FechaFin date not null,
+    HorasExtra int(3) NOT NULL,                             --Añadir constraint de las horas extra
     GratificacionesExtra decimal(7, 2) NOT NULL,
     Prestaciones decimal(6, 2) NOT NULL,
     IndemnizacionTraslado decimal(6, 2) NOT NULL
+);
+
+crate table Recibe(
+    NIF varchar(9),
+    IdNomina bigint(10),
+    Empresa varchar (9),
+    FechaInicio date,
+    FechaFin date,
+    primary key(NIF, IdNomina, Empresa, FechaInicio, FechaFin),
+    constraint fk_recibe_empresa foreign key (Empresa) references Empresa(CIF) on delete cascade on update cascade,
+    constraint fk_recibe_trabajador foreign key (NIF) references Trabajador(NIF) on delete cascade on update cascade,
+    constraint fk_recibe_nomina foreign key (IdNomina) references Nomina(IdNomina) on delete cascade on update cascade,
+    constraint fk_recibe_nominaFecIn foreign key (FechaInicio) references Nomina(FechaInicio) on delete cascade on update cascade,
+    constraint fk_recibe_nominaFecFin foreign key (FechaFin) references Nomina(FechaFin) on delete cascade on update cascade
 );
 
 alter table Trabajador
