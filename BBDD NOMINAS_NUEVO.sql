@@ -38,10 +38,12 @@ create table Hextra(
 
     id bigint (10) AUTO_INCREMENT primary key,
     NIF varchar(9),
+    Empresa varchar(9),
     horasEx int(3),
     FechaInicio date,
     FechaFin date,
-    constraint fk_hextra_trabajador foreign key (NIF) references Trabajador(NIF) on delete cascade on update cascade
+    constraint fk_hextra_trabajador foreign key (NIF) references Trabajador(NIF) on delete cascade on update cascade,
+    constraint fk_hextra_empresa foreign key (Empresa) references Empresa(CIF) on delete cascade on update cascade
 );
 
 crate table Recibe(
@@ -70,3 +72,10 @@ insert into Trabajador VALUES
 ('D45111236', 223655870023, 3, 3, 'B', 'Rodolfo', 'Rodolfo Rodolfez', 'G09186892', 03204),
 ('C45125487', 111452223698, 4, 2, 'C', 'Victor', 'Roldán Caballero', 'V38887654', 03201),
 ('W12477458', 456454896785, 5, 3, null, 'Germán', 'Capatez Martínez', 'V38887654', 03206);
+
+insert into Hextra VALUES
+('A57488334', 'G09186892', 56, '2022-04-01', '2022-04-30'),
+('A57488334', 'V38887654', 13, '2022-04-01', '2022-04-30'),
+('D45111236', 'G09186892', 24, '2022-04-01', '2022-04-30'),
+('C45125487', 'V38887654', 45, '2022-04-01', '2022-04-30'),
+('W12477458', 'V38887654', 10, '2022-04-01', '2022-04-30');
