@@ -22,3 +22,9 @@ Trabajador: 4,7%	Empresa: 23,6%
 
 HORAS EXTRA POR FUERZA MAYOR (NO CAMBIAN) BHE
 Trabajador: 2%		Empresa: 12%
+
+
+
+PARA LEER FICHEROS XML:
+
+DOMparser, devuelve las etiquetas en forma de árbol.

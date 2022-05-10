@@ -29,10 +29,19 @@ create table Nomina(
     TotAportEmp decimal (8, 2) not null,
     FechaInicio date not null,
     FechaFin date not null,
-    HorasExtra int(3) NOT NULL,                             --Añadir constraint de las horas extra
     GratificacionesExtra decimal(7, 2) NOT NULL,
     Prestaciones decimal(6, 2) NOT NULL,
     IndemnizacionTraslado decimal(6, 2) NOT NULL
+);
+
+create table Hextra(
+
+    id bigint (10) AUTO_INCREMENT primary key,
+    NIF varchar(9),
+    horasEx int(3),
+    FechaInicio date,
+    FechaFin date,
+    constraint fk_hextra_trabajador foreign key (NIF) references Trabajador(NIF) on delete cascade on update cascade
 );
 
 crate table Recibe(
