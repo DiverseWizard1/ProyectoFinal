@@ -1,0 +1,9 @@
+Primero se abre la terminal y se accede a la carpeta del repositorio
+
+Despues introducid estos comandos:
+
+git add .
+
+git commit -m "[Mensaje descriptivo de los cambios dentro de las comillas sin corchetes]"
+
+git push
