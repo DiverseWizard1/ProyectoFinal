@@ -42,3 +42,20 @@ create table Trabaja(
     CONSTRAINT fk_trabaja_trabajador foreign key (NIF) references Trabajador(NIF) on update cascade on delete cascade,
     CONSTRAINT fk_trabaja_empresa foreign key (CIF) references Empresa(CIF) on update cascade on delete cascade
 );
+
+insert into Empresa (Domicilio, CIF, CCC, NombreEmp)
+values ('Calle de los puentes, 34','G09186892',73090986614,'Comecocos.sl'),
+       ('Pol. industrial Carrús, 101','V38887654',12311156740,'CalzadosElx y Hermanos');
+
+insert into Trabajador (NIF, NumSS, GrupoProf, NivelProf,AreaProf,NombreTrab,ApellidoTrab,CodPost)
+VALUES ('A57488334',251456987452,7,2,null,'Pepito','Reyes Moreno',03296),
+       ('D45111236',223655870023,3,3,'B','Rodolfo','Rodolfo Rodolfez',03204),
+       ('C45125487',111452223698,4,2,'C','Victor','Roldán Caballero',03201),
+       ('W12477458',456454896785,5,3,null,'Germán','Capatez Martínez',03206);
+
+insert into Trabaja (NIF, CIF, CantHoras, FechaHoras)
+VALUES ('A57488334','G09186892',56,'2022-04-01'),
+       ('A57488334','V38887654',13,'2022-04-01'),
+       ('D45111236','G09186892',24,'2022-04-01'),
+       ('C45125487','V38887654',45,'2022-04-01'),
+       ('W12477458','V38887654',10,'2022-04-01');
