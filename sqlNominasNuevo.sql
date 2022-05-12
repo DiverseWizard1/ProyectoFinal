@@ -2,6 +2,16 @@
 -- Trabajador(NIF(p), NumSS, GrupoProf, NivelProf, AreaProf, NombreTrab, ApellidoTrab, CodPost)
 -- Empresa(CIF(p), CCC, Domicilio, NombreEmp)
 -- Trabaja(Primary_key(NIF(e), CIF(e)), CantHoras, FechaHoras)
+create table Trabajador(
+    NIF varchar(9) primary key,
+    NumSS bigint(12) UNIQUE NOT NULL,
+    GrupoProf int(1) NOT NULL,
+    NivelProf int(1) NOT NULL,
+    AreaProf varchar(1),
+    NombreTrab varchar(50) NOT NULL,
+    ApellidoTrab varchar(50) NOT NULL,
+    CodPost int(5) NOT NULL
+);
 create table Nomina(
     IdNomina bigint (10) AUTO_INCREMENT primary key,
     TotDeduc decimal (8, 2) not null,
@@ -16,16 +26,6 @@ create table Nomina(
     LiquidoTot decimal (8, 2) not null,
     NIF varchar (9),
     CONSTRAINT fk_nomina_trabajador foreign key (NIF) references Trabajador(NIF) on update cascade on delete cascade
-);
-create table Trabajador(
-    NIF varchar(9) primary key,
-    NumSS bigint(12) UNIQUE NOT NULL,
-    GrupoProf int(1) NOT NULL,
-    NivelProf int(1) NOT NULL,
-    AreaProf varchar(1),
-    NombreTrab varchar(50) NOT NULL,
-    ApellidoTrab varchar(50) NOT NULL,
-    CodPost int(5) NOT NULL
 );
 create table Empresa(
     CIF varchar(9) primary key,
