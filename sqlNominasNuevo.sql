@@ -1,7 +1,3 @@
--- Nomina(IdNomina(p), TotDeduc, TotAportEmp, FechaInicio, FechaFin, GratifExtra, TotAport, TotDeveng, Prestaciones, IndemniTraslado, LiquidoTot, NIF(e))
--- Trabajador(NIF(p), NumSS, GrupoProf, NivelProf, AreaProf, NombreTrab, ApellidoTrab, CodPost)
--- Empresa(CIF(p), CCC, Domicilio, NombreEmp)
--- Trabaja(Primary_key(NIF(e), CIF(e)), CantHoras, FechaHoras)
 create table Trabajador(
     NIF varchar(9) primary key,
     NumSS bigint(12) UNIQUE NOT NULL,
@@ -48,10 +44,10 @@ values ('Calle de los puentes, 34','G09186892',73090986614,'Comecocos.sl'),
        ('Pol. industrial Carrús, 101','V38887654',12311156740,'CalzadosElx y Hermanos');
 
 insert into Trabajador (NIF, NumSS, GrupoProf, NivelProf,AreaProf,NombreTrab,ApellidoTrab,CodPost)
-VALUES ('A57488334',251456987452,7,2,null,'Pepito','Reyes Moreno',03296),
+VALUES ('A57488334',251456987452,7,2,'','Pepito','Reyes Moreno',03296),
        ('D45111236',223655870023,3,3,'B','Rodolfo','Rodolfo Rodolfez',03204),
        ('C45125487',111452223698,4,2,'C','Victor','Roldán Caballero',03201),
-       ('W12477458',456454896785,5,3,null,'Germán','Capatez Martínez',03206);
+       ('W12477458',456454896785,5,3,'','Germán','Capatez Martínez',03206);
 
 insert into Trabaja (NIF, CIF, CantHoras, FechaHoras)
 VALUES ('A57488334','G09186892',56,'2022-04-01'),
