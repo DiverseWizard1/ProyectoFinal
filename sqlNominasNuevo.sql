@@ -44,7 +44,7 @@ create table nomina(
 
     NIF varchar (9),
 
-    CONSTRAINT fk_nomina_trabajador foreign key (NIF) references Trabajador(NIF) on update cascade on delete cascade
+    CONSTRAINT fk_nomina_trabajador foreign key (NIF) references trabajador(NIF) on update cascade on delete cascade
 
 );
 
@@ -72,9 +72,9 @@ create table trabaja(
 
     PRIMARY KEY(NIF, CIF),
 
-    CONSTRAINT fk_trabaja_trabajador foreign key (NIF) references Trabajador(NIF) on update cascade on delete cascade,
+    CONSTRAINT fk_trabaja_trabajador foreign key (NIF) references trabajador(NIF) on update cascade on delete cascade,
 
-    CONSTRAINT fk_trabaja_empresa foreign key (CIF) references Empresa(CIF) on update cascade on delete cascade
+    CONSTRAINT fk_trabaja_empresa foreign key (CIF) references empresa(CIF) on update cascade on delete cascade
 
 );
 
