@@ -1,6 +1,6 @@
-BCCC = DEVENGOS(INCLUYENDO PRORRATEOS) - EXTRASALARIALES
+BCCC = DEVENGOS(INCLUYENDO PRORRATEOS) - EXTRASALARIALES - HORAS EXTRA
 BCCP = BCCC + BHE
-BHE = BASE HORAS EXTRA
+BHE = BASE HORAS EXTRA (EN EUROS)
 
 
 CONTINGENCIAS COMUNES (NO CAMBIAN) BCCC
@@ -28,3 +28,9 @@ Trabajador: 2%		Empresa: 12%
 PARA LEER FICHEROS XML:
 
 DOMparser, devuelve las etiquetas en forma de árbol.
+
+
+DESHACER UN COMMIT:
+git reset --hard HEAD~1
+
+Hora extra = (salario bruto anual / jornada anual) x 1.50.

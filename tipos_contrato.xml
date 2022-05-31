@@ -2,7 +2,7 @@
 <!--Nombre, ID, Porcentajes-->
 <contratos>
 
-    <formacionPracticas>
+    <formacionPracticas numero="1">
 
         <desempleo>
             <trabajador>1.55</trabajador>
@@ -11,7 +11,7 @@
 
     </formacionPracticas>
 
-    <indefinido>
+    <indefinido numero="2">
 
         <desempleo>
             <trabajador>1.55</trabajador>
@@ -20,7 +20,7 @@
 
     </indefinido>
 
-    <fijoDiscontinuo>
+    <fijoDiscontinuo numero="3">
 
         <desempleo>
             <trabajador>1.55</trabajador>
@@ -31,7 +31,7 @@
 
     <temporal>
 
-        <eventual>
+        <eventual numero="4">
 
             <desempleo>
                 <trabajador>1.60</trabajador>
@@ -40,7 +40,7 @@
 
         </eventual>
 
-        <relevo>
+        <relevo numero="5">
 
             <desempleo>
                 <trabajador>1.55</trabajador>
@@ -49,7 +49,7 @@
 
         </relevo>
 
-        <sustitucion>
+        <sustitucion numero="6">
 
             <desempleo>
                 <trabajador>1.55</trabajador>

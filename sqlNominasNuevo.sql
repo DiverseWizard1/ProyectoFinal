@@ -42,9 +42,9 @@ create table nomina(
 
     LiquidoTot decimal (8, 2) not null,
 
-    NIF varchar (9),
+    NIFNomina varchar (9),
 
-    CONSTRAINT fk_nomina_trabajador foreign key (NIF) references trabajador(NIF) on update cascade on delete cascade
+    CONSTRAINT fk_nomina_trabajador foreign key (NIFNomina) references trabajador(NIF) on update cascade on delete cascade
 
 );
 
@@ -62,21 +62,29 @@ create table empresa(
 
 create table trabaja(
 
-    NIF varchar(9),
+    NIFTrabaja varchar(9),
 
-    CIF varchar(9),
+    CIFTrabaja varchar(9),
 
     CantHoras int(3) NOT NULL,
 
     FechaHoras date NOT NULL,
 
-    PRIMARY KEY(NIF, CIF),
+    PRIMARY KEY(NIFTrabaja, CIFTrabaja),
 
-    CONSTRAINT fk_trabaja_trabajador foreign key (NIF) references trabajador(NIF) on update cascade on delete cascade,
+    CONSTRAINT fk_trabaja_trabajador foreign key (NIFTrabaja) references trabajador(NIF) on update cascade on delete cascade,
 
-    CONSTRAINT fk_trabaja_empresa foreign key (CIF) references empresa(CIF) on update cascade on delete cascade
+    CONSTRAINT fk_trabaja_empresa foreign key (CIFTrabaja) references empresa(CIF) on update cascade on delete cascade
 
 );
+
+
+
+alter table nomina add column CIFNomina varchar(9) not null;
+
+alter table nomina add constraint fk_nomina_empresa foreign key (CIFNomina) references empresa(CIF) on update cascade on delete cascade;
+
+alter table trabaja add column TipoContrato int (1) not null;
 
 
 
@@ -100,14 +108,14 @@ VALUES ('A57488334',251456987452,7,2,'','Pepito','Reyes Moreno',03296),
 
 
 
-insert into trabaja (NIF, CIF, CantHoras, FechaHoras)
+insert into trabaja (NIFTrabaja, CIFTrabaja, CantHoras, FechaHoras, TipoContrato)
 
-VALUES ('A57488334','G09186892',56,'2022-04-01'),
+VALUES ('A57488334','G09186892',56,'2022-04-01', 4),
 
-       ('A57488334','V38887654',13,'2022-04-01'),
+       ('A57488334','V38887654',13,'2022-04-01', 2),
 
-       ('D45111236','G09186892',24,'2022-04-01'),
+       ('D45111236','G09186892',24,'2022-04-01', 6),
 
-       ('C45125487','V38887654',45,'2022-04-01'),
+       ('C45125487','V38887654',45,'2022-04-01', 5),
 
-       ('W12477458','V38887654',10,'2022-04-01');
+       ('W12477458','V38887654',10,'2022-04-01', 3);
