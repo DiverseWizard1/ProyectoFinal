@@ -84,7 +84,13 @@ alter table nomina add column CIFNomina varchar(9) not null;
 
 alter table nomina add constraint fk_nomina_empresa foreign key (CIFNomina) references empresa(CIF) on update cascade on delete cascade;
 
+
+
 alter table trabaja add column TipoContrato int (1) not null;
+
+
+
+alter table nomina add column capacitacionProfesional decimal (8, 2) not null;
 
 
 

@@ -33,4 +33,4 @@ DOMparser, devuelve las etiquetas en forma de árbol.
 DESHACER UN COMMIT:
 git reset --hard HEAD~1
 
-Hora extra = (salario bruto anual / jornada anual) x 1.50.
+Hora extra = (salario bruto anual / jornada anual) x 1.50
