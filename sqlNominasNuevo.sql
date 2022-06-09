@@ -22,9 +22,7 @@ create table nomina(
 
     IdNomina bigint (10) AUTO_INCREMENT primary key,
 
-    TotDeduc decimal (8, 2) not null,
-
-    TotAportEmp decimal (8, 2) not null,
+    NIFNomina varchar (9),
 
     FechaInicio date not null,
 
@@ -32,17 +30,33 @@ create table nomina(
 
     GratifExtra decimal(7, 2) NOT NULL,
 
-    TotAport decimal (6, 2) not null,
-
-    TotDeveng decimal (8, 2) not null,
-
     Prestaciones decimal(6, 2) NOT NULL,
 
     IndemniTraslado decimal(6, 2) NOT NULL,
 
-    LiquidoTot decimal (8, 2) not null,
+    TotDeveng decimal (8, 2) not null,
 
-    NIFNomina varchar (9),
+
+
+    CCC decimal (8, 2) not null,
+
+    Desempleo decimal (8, 2) not null,
+
+    PorcentajeDesem varchar (7) not null,
+
+    PorcentajeDesemEmp varchar (7) not null,
+
+    DesempleoEmp decimal (8, 2) not null,
+
+
+
+    TotAport decimal (6, 2) not null,
+
+    TotDeduc decimal (8, 2) not null,
+
+    TotAportEmp decimal (8, 2) not null,    
+
+    LiquidoTot decimal (8, 2) not null,
 
     CONSTRAINT fk_nomina_trabajador foreign key (NIFNomina) references trabajador(NIF) on update cascade on delete cascade
 
@@ -80,7 +94,7 @@ create table trabaja(
 
 
 
-alter table nomina add column CIFNomina varchar(9) not null;
+alter table nomina add column CIFNomina varchar(9) not null after NIFNomina;
 
 alter table nomina add constraint fk_nomina_empresa foreign key (CIFNomina) references empresa(CIF) on update cascade on delete cascade;
 
