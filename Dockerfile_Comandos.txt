@@ -1,0 +1,14 @@
+FROM mariadb
+
+ENV MARIADB_ROOT_PASSWORD=root
+
+ENV MARIADB_DATABASE=nominas
+
+ENV MARIADB_USER=usu01
+ENV MARIADB_PASSWORD=usu01
+
+COPY Equipo_1.sql /docker-entrypoint-initdb.d
+
+--Comandos--
+docker build -t nomina_final:v1.18 .
+docker run --name nominas -d -p 5000:3306 nomina_final:v1.18
